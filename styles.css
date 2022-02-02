@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+canvas {
+    display: block;
+    /* border: solid black 1px; */
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    z-index: 1;
+    border-radius: 10px;
+}
+
+h1 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    border: solid black 2px;
+    text-shadow: 2px 2px black;
+    box-shadow: 2px 2px black;
+    color: white;
+    z-index: 2;
+    padding: 20px;
+    border-radius: 10px;
+}
